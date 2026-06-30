@@ -73,8 +73,6 @@ export default function LoginPage() {
         </form>
 
         <div className="login-footer">
-          Authorized administrators only: Purity Mutuma &amp; Simon.
-          <br />
           Contact your system manager if you've forgotten your password.
         </div>
       </div>
