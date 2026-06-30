@@ -94,11 +94,7 @@ export default function AdminsPage() {
         <div className="card" style={{ marginTop: 18 }}>
           <h3>Adding / Removing Admins</h3>
           <p>
-            For security, new admin accounts must be created from the Supabase Dashboard
-            (Authentication → Users → Add user), then linked by inserting a row into the
-            <code> admin_profiles</code> table with the matching user ID. Only emails registered
-            in <code>admin_profiles</code> can sign in to this system. Full instructions are
-            included in <code>supabase/schema.sql</code>.
+           For Security purposes, Only Developer Richard can add or remove admins.
           </p>
         </div>
       </Layout>
